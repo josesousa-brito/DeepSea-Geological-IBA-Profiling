@@ -1,0 +1,2 @@
+Report for batch 671132, sample number 01.  13/05/2026 15:54:46
+PlotFits  file 671F0102.DAT: time 10/05/2026 18:06:43 doesn't match RES file time: 13/05/2026 15:51:12

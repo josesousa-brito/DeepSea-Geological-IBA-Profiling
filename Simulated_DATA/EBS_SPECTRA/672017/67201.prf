@@ -1,0 +1,18 @@
+ 1
+ 0.100000E+10  0.172028E+02  0.102885E-01  0.596332E+02  0.224984E+02  0.222115E+00  0.313462E-01  0.270096E+00  0.650000E-01  0.421154E-01  0.235577E-01  0.115385E-02
+ thickness(1e15at/cm2), comp_molecules...
+molecules 11
+  2.014 Ca                                                                                                                                  
+  8.483 Fe                                                                                                                                  
+  4.302 O                                                                                                                                   
+ 11.364 C                                                                                                                                   
+  4.977 Si                                                                                                                                  
+  3.220 Cl                                                                                                                                  
+  2.541 Na                                                                                                                                  
+  4.302 Mg                                                                                                                                  
+  6.023 Al                                                                                                                                  
+  3.885 S                                                                                                                                   
+  5.682 Ti                                                                                                                                  
+NDF v9.6h 11Sep15 rev 12Mar16 run 09/05/2026 15:26:19 Filename: 67201.prf    Nuno Barradas (Laboratório de Feixes de Iões), Campus Tecnológico e Nuclear, Instituto Superior Técnico
+batch 672015.spc                                                                    
+str 672015s.str                                                                   

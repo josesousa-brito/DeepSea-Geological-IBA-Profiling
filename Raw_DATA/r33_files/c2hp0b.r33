@@ -1,0 +1,127 @@
+Comment: H.M.Kuan and T.W.Bonner Nucl.Phys. 51 (1964) 481;
+     The differential cross sections and angular distributions for 
+outgoing protons induced by 3He in 12C targets from 1.8 to 5.4 MeV 
+were measured.
+     Van de Graaff accelerator, foil targets of 15 to 30  mcg/cm^2 
+thickness, RCA diffused-junction and Ortec solid state detectors.
+     Results are presented  in  graphical  form  with  theoretical 
+curves.
+The following data are presented:
+     - differential elastic  c.m.  scattering  cross  sections  of 
+12C(3He,3He)12C at c.m. angles 84.5, 90, 122.3, 154.5, 164.5;
+     - differential cross sections at lab angles 76 and 159.4  and 
+angular distributions at 2.49, 2.88, 2.99, 3.50, and 4.88  MeV  of 
+the reaction 12C(3He,p0)14N;
+     - the same as  above  for  the  reaction  12C(3He,p1)14N(2.31 
+state);
+     - the same for 3.945, 4.91, 5.10, 5.69 state;
+     - differential cross sections at lab angles  76,  100.2,  and 
+159.4 and angular distributions at 2.99, 3.50, 4.20, and 4.88  MeV 
+of the reaction 12C(He3,p6)14N(5.83 MeV state);
+     - differential cross sections at lab angles 76, 109.3,  146.6 
+and 159.4 and angular distributions at 2.88, 2.99, 3.50, 4.20, and 
+4.88 MeV of the reaction 12C(He3,p8)14N(6.23 MeV state);
+     - differential cross sections at lab angles 76, 109.3,  146.6 
+and 159.4 and angular distributions at 2.99, 4.20, and 4.88 MeV of 
+the reaction 12C(He3,p9)14N(6.44 MeV state);
+     - differential cross sections at lab angles 76, 109.3,  146.6 
+and 159.4 and angular distributions at 4.20, and 4.88 MeV  of  the 
+reaction 12C(He3,p11)14N(7.03 MeV state);
+     - differential cross sections at lab angles  76,  104.5,  and 
+159.4 and angular distributions at 2.49, 2.88, 2.99 3.50 4.20, and 
+4.88 MeV of the reaction 12C(He3,a0)11C(ground state);
+     - differential cross sections at lab angle 76 deg and angular 
+distributions  at   4.20,   and   4.88   MeV   of   the   reaction 
+12C(He3,a1)11C(2.0 MeV state);
+File created by R33 Manager version 0.21
+
+Version: R33
+Source: H.M.Kuan and T.W.Bonner Nucl.Phys.51 (1964) 481
+Name: 
+Serial Number: 
+SubFile: c2hep0b.r33
+X4Number: 
+Reaction: 12C(3He,p0)14N
+Distribution: Energy
+Composition: 
+Masses:    3.000,   12.000,    1.000,   14.000
+Zeds: 2, 6, 1, 7
+Qvalue:   4779.00,      0.00,      0.00,      0.00,      0.00
+Theta:    159.40
+Sigfactors: 1.00, 0.00
+Enfactors: 1000.00, 0.00, 0.00, 0.00
+Units: mb
+Data:
+    0.001,  0.000,   0.001, 0.000
+    1.774,  0.000,   0.060, 0.000
+    1.878,  0.000,   0.170, 0.000
+    1.957,  0.000,   0.150, 0.000
+    2.039,  0.000,   0.250, 0.000
+    2.088,  0.000,   0.430, 0.000
+    2.152,  0.000,   0.430, 0.000
+    2.194,  0.000,   0.550, 0.000
+    2.232,  0.000,   0.490, 0.000
+    2.272,  0.000,   0.630, 0.000
+    2.310,  0.000,   0.920, 0.000
+    2.356,  0.000,   1.130, 0.000
+    2.393,  0.000,   1.490, 0.000
+    2.432,  0.000,   1.740, 0.000
+    2.473,  0.000,   2.020, 0.000
+    2.513,  0.000,   2.310, 0.000
+    2.551,  0.000,   2.900, 0.000
+    2.596,  0.000,   2.970, 0.000
+    2.641,  0.000,   3.160, 0.000
+    2.681,  0.000,   3.940, 0.000
+    2.721,  0.000,   4.040, 0.000
+    2.769,  0.000,   4.130, 0.000
+    2.823,  0.000,   3.870, 0.000
+    2.855,  0.000,   4.060, 0.000
+    2.880,  0.000,   4.400, 0.000
+    2.903,  0.000,   4.970, 0.000
+    2.937,  0.000,   4.590, 0.000
+    3.014,  0.000,   2.150, 0.000
+    3.053,  0.000,   1.970, 0.000
+    3.115,  0.000,   1.600, 0.000
+    3.167,  0.000,   1.610, 0.000
+    3.214,  0.000,   1.920, 0.000
+    3.258,  0.000,   2.170, 0.000
+    3.317,  0.000,   2.540, 0.000
+    3.383,  0.000,   3.240, 0.000
+    3.442,  0.000,   3.710, 0.000
+    3.506,  0.000,   4.180, 0.000
+    3.568,  0.000,   4.750, 0.000
+    3.656,  0.000,   3.860, 0.000
+    3.734,  0.000,   3.110, 0.000
+    3.820,  0.000,   2.200, 0.000
+    3.893,  0.000,   1.890, 0.000
+    3.977,  0.000,   1.360, 0.000
+    4.040,  0.000,   1.350, 0.000
+    4.095,  0.000,   1.210, 0.000
+    4.118,  0.000,   1.340, 0.000
+    4.139,  0.000,   1.200, 0.000
+    4.156,  0.000,   0.990, 0.000
+    4.178,  0.000,   1.110, 0.000
+    4.188,  0.000,   1.220, 0.000
+    4.205,  0.000,   1.200, 0.000
+    4.225,  0.000,   0.920, 0.000
+    4.246,  0.000,   1.010, 0.000
+    4.259,  0.000,   1.140, 0.000
+    4.283,  0.000,   1.010, 0.000
+    4.293,  0.000,   1.120, 0.000
+    4.323,  0.000,   1.190, 0.000
+    4.359,  0.000,   1.280, 0.000
+    4.387,  0.000,   1.450, 0.000
+    4.453,  0.000,   1.940, 0.000
+    4.525,  0.000,   2.580, 0.000
+    4.589,  0.000,   2.830, 0.000
+    4.680,  0.000,   3.090, 0.000
+    4.739,  0.000,   3.140, 0.000
+    4.828,  0.000,   3.030, 0.000
+    4.897,  0.000,   2.880, 0.000
+    4.972,  0.000,   2.670, 0.000
+    5.043,  0.000,   2.650, 0.000
+    5.119,  0.000,   2.310, 0.000
+    5.201,  0.000,   2.380, 0.000
+    5.278,  0.000,   2.240, 0.000
+    5.359,  0.000,   2.160, 0.000
+EndData:

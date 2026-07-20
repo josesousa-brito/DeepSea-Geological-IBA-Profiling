@@ -1,0 +1,32 @@
+_header version  4 
+_data size:  2048 
+_date of spectra:  18-02-2010 14:05:00
+_target: Nodulo polimetalico mapa zona escura cksmoker Lucky strike ra
+_beam energy/MeV:  0.7 
+_beam A, Z, Q/e :  1         1             1 
+_elapsed time/s :  868  [00:14:28]
+_No. charge pulses:  92894482 
+_total run time/s :  737.75132 
+_total live time/s:  737.75024 
+_ch.0 live time/s :  737.75156 
+_charge conversion factor and charge per pulse/C:  1     1E-14 
+_beam charge /nC : 928.9
+_beam current/pA : 1070.2
+_ADC  0 
+_compression (0 = no; 1 = yes):  1 
+_maximum counts  =  213371 
+_total of counts =  1760801 
+_Average rate/Hz =  2028.57
+_system calibration: E/keV =  1.182031E-02 *ch + -0.1739901 
+_radiation type: PIXE
+_det area/mm.sq   = 30 
+_det_tgt dist/mm  = 25 
+_det sol_angl/msr = 48.0
+_det_beam angle/º = 45 
+_target in-plane tilt/º = 0 
+_target out-of-plane tilt/º = 0 
+_file length, spec offset and data bytes =               5846          3798          2048 
+_target: Nodulo polimetalico mapa zona escura cksmoker Lucky strike ra
+Info retrieved on compression indicates no compression!
+2048 channels require 8192 bytes. Data segment has only 2048 bytes.
+Compression assumed as used.

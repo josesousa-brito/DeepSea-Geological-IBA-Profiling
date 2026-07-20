@@ -1,0 +1,383 @@
+1.300000
+----------SPECTRUM----------
+C:\Users\João Franquinho\Desktop\5ºsemestre\Estágio\PIXE-20260218\672024.spo	(spectrum filename)
+110	(start channel of fit region)
+1000	(stop channel of fit region)
+5	(3/5: 3=trace solution, 5=matrix solution.)
+----------EXPERIMENTAL SETUP----------
+0		(angle between beam and normal, in degrees)
+45		(angle between normal and detector axis, in degrees)
+1		(1/2/3/4/5 where 1=proton, 2=deuteron, 3=He3, 4=He4, 5=HEP)
+0		(Cross-sections: 0=theoretical; 1=reference where available)
+700		(Ion energy in units of keV)
+1		(Beam charge in units consistent with H-value)
+5 1 ""		(Det #, 0 no eff. OR 1 formula OR -1 external eff file "filename")
+0		(number of x-ray absorbing filters)
+0.045
+	(1st entry is constant H-value or -1 if H is energy-dependent.
+	If H=constant, no more entries.  For energy-dependent H, subsequent
+	entries are names of these H-files for K, L, M x-rays, in this order,
+	with extension .HED.)
+-1
+	(1 if there is a run description, followed by the run description text;
+	otherwise -1)
+----------SAMPLE STRUCTURE----------
+1 0	(First entry is Thin target=0, Thick=1, Intermediate=2, Layered=3.
+	Second entry is input energy in keV units if 'thin' was selected, zero if
+	'thick' was selected; if 'intermediate' was selected it is exit energy in
+	keV units or negative sign followed by target thickness in
+	microgram/cm-squared units; if 'layered' was selectedthere is no second
+	entry.)
+----------Non-layered (NL)----------
+0 -1 -1	(First entry=1 for depth fraction option checked, 0 for unchecked, 
+		L=layered.
+		If DF option is checked, second entry is %% depth fraction and
+		third is target density in g/cm3; otherwise these two are each -1.)
+----------Multiple layers (L)----------
+-1	(Number of layers if a layered target was chosen; otherwise -1)
+-1 -1	(First entry is 1 for thickness iteration within matrix element solution,0
+	if no iteration: Second entry is 1 for last layered infinite in this
+	iterativesolution, 0 if not. Both are -1 if target is not layered. 
+	Both are -1 if it is a trace element solution).
+	(The next section has the single entry -1 if target is not layered or if
+	thicknesses are being iterated: otherwise as follows, with 1 line for each
+	layer: 1st entry of line identifies layer #, with top layer being #1;
+	2nd entry is exit energy (keV) from this layer or negative sign followed
+	by layer thickness in ug/cm2: if depth fraction option was chosen next 2
+	entries are % depth fraction and layer density, otherwise -1 and -1.)
+-1
+----------TRACE ELEMENT SOLUTION----------
+----------Define matrix elements----------
+-1 -1	(Number of matrix elements for thick/intermediate/layered target followed 
+		by weight type.  Number of elements shows -1 if n/a; weight type 0 for 
+		weight, 1 for oxide.)
+----------Define trace elements----------
+-1	(Number of trace elements or -1 if it is not a trace element solution.)
+----------ITERATIVE MATRIX ELEMENT SOLUTION----------
+----------Define fit elements----------
+14	(Number of fit elements, or -1 if it is not a matrix element solution.)
+	(For matrix solution, describe 1 element per line. 1st two entries
+	on line are Z and Layer number (NL=not layered, S=surface, F=filter)
+	3rd entry is for special "split" cases and identifies the x-ray 
+	line that is used in iterating the concentrations, otherwise write
+	-1; 4th entry is x-ray group Information as defined earlier. If
+	NOT a matrix solution, 1 line with a single -1 entry).
+33 NL K K,L
+11 NL -1 K
+12 NL -1 K
+13 NL -1 K
+14 NL -1 K
+15 NL -1 K
+16 NL -1 K
+17 NL -1 K
+19 NL -1 K
+20 NL -1 K
+22 NL -1 K
+25 NL -1 K
+26 NL -1 K
+28 NL -1 K
+1	(1 for normalization of concentrations to 100% total, 0 if not: -1 if
+	not a matrix element solution OR if thin or layered target is defined.)
+----------Layer thickness iteration mode----------
+-----(Only for special case of 2 layers and substrate infinite and 
+	no independent invisibles in substrate)-----
+-1	(-1 if inactive, otherwise: 1=upper layer iterated,
+	2=substrate iterated.)
+----------Define invisible elements----------
+2	(Integer number of invisible elements or compounds; otherwise -1 if no
+	invisibles or if it is not a matrix element solution.)
+	(If no invisibles, a single -1 entry. Otherwise 1 line for each invisible:
+	1st entry is Z: (if it is a compound ie. Z>99, then next come brackets 
+	with (Z comma atomic fraction) for each atom in the compound): 2nd item is 
+	the layer # or NL if not layered: 3rd is valence of invisible: 4th is
+	dependent/independent=1/-1: 5th is the altered list of complexes, or -1 
+	if no alterations/removals made.)
+6 NL 4 1 -1
+8 NL -2 1 As2O5 Na2O OMg Al2O3 SiO2 P2O5 SO3 Invalid valence. K2O CaCO3 TiO2 OMn OFe ONi
+----------BATCH MODE----------
+-1	(1st entry is -1 if not batch mode, 0/1 for trace/matrix solution
+	in batch mode. 2nd entry is either the name of the par.val file 
+	from a single fit or -1)
+----------SPECTRUM FIT----------
+0.001 30 0 50 -1	(1st entry is ultimate delta-chisq: 2nd is # of loops in
+		fit;3rd is 0/1 for pileup options i.e. 0 for peak pileup or 1
+		for peak+continuum pileup: if 0 is chosen then P1=#
+		of pileup peaks and P2=-1: if 1 is chosen, P1 and P2
+		define channel limits of region used to generate pileup.)
+49.8729 98.9236 0 8.81 1.117	(Values of 5 calibration parameters.)
+1 3		(Number N of fixed calibration parameters and their ID numbers.)
+0 -1		(1st entry: 0=input A5 value: 1=input F.epsilon value: 
+		2nd entry is -1 or F.epsilon.)
+----------Background edges----------
+-1	(1st entry is # of edges or -1 if none defined: if edges are defined
+	their Z values follow separated by spaces.)
+----------Digital filter----------
+1		(0=constant filter size: 1=variable: 2=two-region filter.)
+-1 -1		(If constant filter chosen, these are integer channel widths of 
+		center and wing portions; or if variable/two-region filter
+		chosen, write -1 -1)
+-1 -1 -1	(If two-region filter option was chosen, 1st entry is region
+		 boundary channel,2nd is integer multiplier of center section
+		width, 3rd entry is integer multiplier of wing section width; if 
+		this option not chosen, write -1 -1 -1)
+----------Spectral Data-----------
+2048 1
+'0-0-0' '0:00:00' 0  0 ''
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        6
+       7       10       23       58       84      152      261      450
+     761     1107     1761     2494     3442     4688     6488     8196
+   10200    12340    14692    16616    18464    20184    21176    21224
+   21216    20352    19008    17280    15424    13236    10928     9068
+    7174     5492     4198     3083     2135     1459     1050      685
+     421      292      175       93       48       31       16       11
+       8        1        5        0       12        5        6       26
+     115      250      398      418      405      376      399      370
+     366      387      366      375      346      332      358      349
+     348      342      342      342      358      330      376      354
+     373      393      399      420      471      516      529      541
+     605      624      671      719      777      788      802      785
+     806      762      832      770      741      696      692      638
+     734      659      690      672      647      679      720      791
+     792      828      946     1024     1129     1349     1460     1663
+    1917     2166     2286     2543     2783     2765     3056     3111
+    3029     2972     3068     2905     2838     2786     2800     2887
+    3121     3473     3975     4562     5346     5976     7120     7838
+    8896     9628    10376    10956    11136    11324    11160    10692
+   10060     9272     8792     7962     7104     6816     6562     6418
+    6618     7354     8312     9568    10796    12476    14164    15992
+   17368    18488    19528    20248    20544    20016    19408    18320
+   16888    15740    14092    12604    11216    10468     9764     9736
+   10168    11208    12872    14968    17824    20952    24576    28112
+   31536    34944    38288    40064    41648    42624    41600    40912
+   38416    36192    33152    29264    25456    22080    18816    15632
+   12656    10660     8604     7036     5964     5112     4538     4314
+    4330     4278     4440     4614     5056     5192     5234     5512
+    5542     5480     5230     5110     4646     4378     3972     3672
+    3159     2754     2386     2038     1793     1542     1271     1205
+    1154     1101     1139     1122     1221     1220     1375     1458
+    1584     1729     1838     1991     1973     2127     2056     2011
+    1984     1891     1821     1620     1471     1357     1219     1077
+     935      913      827      776      764      824      845      959
+    1208     1353     1628     1861     2193     2622     2951     3473
+    3849     4041     4392     4686     4812     4852     4866     4666
+    4296     4015     3730     3395     2962     2579     2262     1915
+    1631     1328     1179     1015      932      801      703      686
+     647      632      586      534      516      434      404      341
+     352      288      283      196      200      163      139      120
+     108       81       83       80       69       55       53       56
+      57       58       70       64       67       76       67       92
+      96       98      138      149      173      242      243      348
+     404      452      536      600      667      779      826      838
+     939      929      959      918      870      805      780      720
+     641      568      525      437      380      304      291      249
+     206      204      201      208      223      251      352      396
+     539      662      842     1013     1250     1446     1775     2052
+    2446     2742     3105     3284     3636     3813     3874     4070
+    4018     3748     3607     3398     3133     2926     2530     2204
+    1909     1623     1279     1077      875      706      567      431
+     320      316      252      247      263      275      255      257
+     339      345      396      445      484      535      513      533
+     513      501      454      473      449      367      367      315
+     272      267      234      181      161      137      120      100
+      74       72       64       39       48       33       29       23
+      42       49       42       30       38       61       69       69
+      88      131      159      210      269      304      352      411
+     461      531      615      690      752      793      849      871
+     910      931      840      816      835      757      738      637
+     557      533      441      413      292      288      214      210
+     132      146      105      105       94       61       73       49
+      78       62       67       84       92       84      101      104
+     111      123      145      141      142      174      162      179
+     193      215      247      207      235      196      196      189
+     175      165      133      134      117      104       83       70
+      67       73       63       52       39       51       42       30
+      48       34       31       33       34       38       30       34
+      25       24       39       40       34       29       44       30
+      38       34       42       30       33       40       31       32
+      43       40       47       37       38       30       37       44
+      45       23       37       31       32       38       39       34
+      28       46       29       39       26       36       46       36
+      38       52       59       52       78       90      131      151
+     199      245      324      394      476      660      733      883
+    1051     1250     1395     1663     1836     1981     2256     2378
+    2512     2503     2597     2581     2454     2394     2432     2211
+    2015     1799     1570     1408     1175     1043      967      743
+     587      503      391      331      270      201      157      164
+     104      100      110      101      127      141      194      217
+     253      369      470      609      720     1003     1175     1513
+    1773     2238     2610     3159     3469     3977     4422     4854
+    5192     5870     6128     6258     6314     6480     6422     6094
+    5802     5542     5114     4772     4344     3848     3381     2971
+    2562     2218     1812     1470     1281     1036      782      614
+     467      383      252      212      184      133       97       84
+      55       42       39       40       29       20       19       27
+      22       22       31       38       32       36       43       58
+      51       87       76      102      114      164      173      211
+     238      261      320      373      431      486      591      625
+     700      673      726      786      787      790      809      789
+     788      734      729      642      621      533      511      417
+     373      335      288      226      179      134      128      105
+      89       60       45       32       23       34       17       16
+      14       12        8       12       11       14       17       14
+      15       13       23       15       28       19       27       27
+      26       29       17       25       22       21       16       13
+      15       18        9       11       14        7       10        5
+       7        5        9        3        6        2        0        8
+       2        2        4        1        4        2        4        3
+       2        0        2        1        3        0        3        4
+       2        2        3        3        3        5        3        8
+       9        4        6       10        9        5        9        7
+       9       12        7       11        9        4        3        8
+       6        6        9        5        3        8        8        7
+       4        4        7        3        4        6        5        4
+       8        6        4        4        1        5        4        5
+       0        3        2        1        2        4        1        0
+       2        1        0        0        1        5        3        2
+       7        1        3        3        7        6        7        8
+       4        2        5        5        3        3        3        1
+       1        4        2        4        2        1        1        2
+       4        3        0        1        1        4        1        1
+       1        3        0        0        1        1        1        4
+       2        2        4        0        1        0        0        0
+       2        0        1        0        1        1        1        1
+       0        0        1        0        0        1        0        0
+       0        0        0        1        0        0        0        0
+       1        0        0        0        1        0        1        0
+       0        2        0        0        0        0        0        0
+       1        0        0        1        1        0        0        1
+       0        1        3        0        1        1        1        1
+       0        1        0        1        1        1        0        2
+       1        0        1        1        3        0        0        1
+       2        0        0        1        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        1        0        0        0        1        0
+       0        0        0        1        0        0        0        0
+       0        0        0        0        1        0        0        0
+       0        0        1        1        0        0        0        0
+       0        0        0        1        0        0        0        0
+       0        0        2        0        0        0        0        0
+       0        1        0        2        0        1        0        2
+       1        2        2        1        1        3        2        2
+       2        0        1        2        2        0        0        1
+       1        0        2        1        0        0        0        0
+       1        0        1        1        0        0        0        0
+       0        1        0        0        0        0        0        0
+       0        1        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        1        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        2
+       0        0        0        1        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        1        0        1        0        0
+       0        0        0        0        0        0        1        0
+       0        0        0        0        0        0        0        0
+       0        1        0        0        0        0        0        0
+       0        0        0        0        0        0        1        0
+       0        0        0        1        0        0        0        0
+       0        0        0        0        1        0        0        0
+       0        1        0        0        0        0        1        0
+       0        1        1        0        0        0        0        0
+       0        0        1        0        0        0        0        1
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        2
+       0        0        0        0        1        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        1        0        0        0        0        1        0
+       0        0        0        0        2        0        0        0
+       0        0        0        0        1        0        0        0
+       0        0        0        0        0        0        0        1
+       0        0        1        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        1        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        1        0
+       0        0        0        0        0        0        0        0
+       0        1        0        0        0        0        0        0
+       0        0        0        0        0        0        1        0
+       0        0        0        1        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        1        0        0        0        1
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        1        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        1        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        1
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        1        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        1        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+       0        0        0        0        0        0        0        0
+
+--------------------------------------------------

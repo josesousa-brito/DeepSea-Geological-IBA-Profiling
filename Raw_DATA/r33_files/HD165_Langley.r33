@@ -1,0 +1,40 @@
+Comment: The data were digitized from Fig. 2 of the publication: 
+Proceedings of the Int. Conf. on Ion Beam Surface Layer Analysis,
+Held at Karlsruhe 1975, Editors: O. Meyer, G. Linker and F. Käppeler,
+Plenum Press, New York, 1976, Vol. 1, Page 201
+Note that the data in Figs. 2 and 3 differ by a factor of about 4!!!
+WARNING ! THIS IS MAINLY FOR TEST NO GUARANTY IS PROVIDED FOR EVEN
+AGREEMENT WITH THE ORIGINAL PUBLICATION.
+File created by R33 Manager version 0.1
+
+Version: R33
+Source: R.A. Langley (1976)
+Name: M. Mayer
+Address1: Max-Planck-Institut fuer Plasmaphysik
+Address2: Boltzmannstr. 2
+Address3: D-85748 Garching
+Address4: Germany
+Address5: ++49 89 3299 1269
+Address6: Matej.Mayer@ipp.mpg.de
+Serial Number: 0
+Reaction: D(p,p)D
+Distribution: Energy
+Composition: 
+Masses:    1.000,    2.000,    1.000,    2.000
+Zeds: 1, 1, 1, 1
+Qvalue:      0.00,      0.00,      0.00,      0.00,      0.00
+Theta:    165.00
+Sigfactors: 1.00, 0.00
+Enfactors: 1.00, 0.00, 0.00, 0.00
+Units: mb
+Data:
+ 2002.900,  0.000, 108.500, 0.000
+ 2100.100,  0.000, 107.000, 0.000
+ 2199.600,  0.000, 105.300, 0.000
+ 2302.800,  0.000, 105.600, 0.000
+ 2401.200,  0.000, 103.600, 0.000
+ 2500.800,  0.000, 103.000, 0.000
+ 2599.700,  0.000, 100.900, 0.000
+ 2699.800,  0.000,  98.900, 0.000
+ 2799.400,  0.000,  98.600, 0.000
+EndData:

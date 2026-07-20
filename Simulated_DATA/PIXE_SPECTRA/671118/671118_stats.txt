@@ -1,0 +1,191 @@
+             ***  GUPIX (GUelph PIXe): Thick Target Matrix Calc  ***
+           Windows GUPIX Version 2.2.0         Last Update: 2011-08-29
+ Time: 15:50:38                *** Results ***           Date (y-m-d): 26-07-19
+
+ File:Análise amostras            ID:                               
+ Chi**2= 4.197      ( 18.16    )  Total counts:10426292  %RMS sys err= 1.920    
+ Total # of loops:   1                 Total fit time:    0.0 seconds.
+ Fit region has 1231 chan (  70 to 1300).  File has 2048 channels.
+ The detector resolution at the 5.9 keV line is  184.7 eV  (180.)
+ Thick PIXE spectrum acquired(0-0-0 @ 0:00:00) for      0s.
+     Matrix   Average count rate(cps):     0.0   Average current(nA):   0.000
+ H: 4.500E-02                          Angle(Beam-Target normal) Alpha=  0
+ Charge: 1.000E+00                          (Detector- "    "  ) Theta= 45
+ The matrix composition was iterated.
+    Proton energy(keV):  2000 Exit keV:     0 Layer thickness(ug/cm2): 1.114E+04
+ Depth fraction:0.000          Density(gm/cm3): 0.000
+ Matrix (22) elmts (Z,ppt): (15,   4.4) (16,   2.5) (17,  16.4) (19,   8.0)
+    (20, 205.6) (22,   1.5) (23,   0.7) (25, 103.2) (26, 225.6) (27,   3.0)
+    (28,   4.0) (29,   2.7) (30,   0.8) (31,   0.0) (33,   0.5) (35,   0.2)
+    (37,   0.1) (38,   1.0) (39,   0.1) (40,   0.2) ( 6,  63.0) ( 8, 356.5)
+ Looking for 29 elmts:  Si K , P  K , S  K , Cl K , K  K , Ca K , Ti K , V  K ,
+   Mn K , Fe K , Co K , Ni K , Cu K , Zn K , Ga K , As K , Br K , Rb K , Sr K ,
+   Y  K , Zr K , Zn LB, Ga LB, As LB, Br LA, Rb LA, Sr LA, Y  LA, Zr LA
+ Dependent invisible element(s) tied to visibles -- Si,P,S,Cl4C,K,Ca,Ti,V,Mn,Fe,
+       Co,Ni,Cu,Zn,Ga,As,Br4C,Rb,Sr,Y,Zr,Zn,Ga,As,Br4C,Rb,Sr,Y,Zr,SiO2,P2O5,SO3,
+       K2O,TiO2,V2O3,MnO,FeO,CoO,NiO,Cu2O,ZnO,Ga2O3,As2O5,Rb2O,SrO,Y2O3,ZrO2,
+       CaCO3
+ Filters (Z,um,hole fraction):  1               Fractional absorber error:0.010
+(100,50,0)
+ Special filter materials (100:Mylar)                                                               
+ Detector efficiency correction of relative intensities:  On
+ Det # 5     SDD-2
+ Windows #,(Z,th(cm),g/cm3):1 (  4,2.10E-03,0.00E+00)
+ Electrode(Z,cm,hf): ( 13,1.00E-05,0.00E+00)   Crystal(Z,cm): (14,4.00E-02)
+ Sam-Det(cm):  0.00 Ag/At: 1.840 Res(eV):180. Tau(ns): 500. Deadtime(us): 25.0
+ Use theoretical proton induced x-ray cross-sections for K,L&M x-rays.
+
+           Peak and spectrum description:
+ Peak centroid = A1+A2*E+A3*E**2            A(1,2,3):   49.115   49.773  0.0000
+ Peak width = SQRT(A4+A5*E)                   A(4,5):  10.4617   0.8115
+ With these values the fit region extends from   0.42 to  25.13 keV with FWHM
+ at center being  215.8 eV or 10.74 channels.  Excluding pile-up & escape the
+ elements have peaks ranging from   1.012 to  17.972 keV.
+
+ Background handled by Variable Digital Filter   n=fwhm* 1.00   m=fwhm/2* 1.00
+ Basic peak shape: Gaussian only.
+ Peak plateau: None.
+ Short step: Energy dependent parameterized short step in use.
+ Peak tailing: 1 energy dependent parameterized tails per peak.
+ Matrix abs. edges: None.
+ Si escape energy in keV:  1.740
+ Minimum background value for LOD calc:    1
+ Statistical + Benjamin absorber error channel weighting used (0.010)
+ Pile-up [99(PU S )] peaks - #allowed: 50,  #used: 50
+
+ Stopping criteria: STEP:0.0010    LOOPS:  30
+ Total # of pars., fixed pars. & their IDs: (35, 6)  3, 6,27,28,33,34
+ ##############################################################################
+  Note: ID/n,  n=(F:filter, S:surface, n:layer number)
+  #   ID     FINAL VALUE  INIT. VALUE     ERROR     %ERROR LAST CHANGE  %CHANGE
+  -   --     -----------  -----------     -----     ------ -----------  -------
+  1            49.1153      49.1153      5.409E-03    0.01   1.415E-05     0.00
+  2            49.7732      49.7732      9.502E-04    0.00  -2.126E-06     0.00
+  3           0.000000     0.000000      0.000        0.00   0.000         0.00
+  4            10.4617      10.4615      3.743E-02    0.36   2.268E-04     0.00
+  5           0.811494     0.811529      6.783E-03    0.84  -3.554E-05     0.00
+  6 Si K / 1  0.000000     0.000000      0.000        0.00   0.000         0.00
+  7 P  K / 1   550.253      550.632       127.       22.99    1.13         0.21
+  8 S  K / 1   1013.63      1013.61       79.7        7.86  -0.211        -0.02
+  9 Cl K / 1   13128.4      13128.5       151.        1.15   -1.61        -0.01
+ 10 K  K / 1   12927.1      12927.1       106.        0.82   -2.08        -0.02
+ 11 Ca K / 1   351080.      351086.       710.        0.20    53.7         0.02
+ 12 Ti K / 1   1544.97      1544.96       25.5        1.65  -0.474        -0.03
+ 13 V  K / 1   681.452      681.454       19.5        2.86   0.191         0.03
+ 14 Mn K / 1   72969.5      72969.5       126.        0.17    4.84         0.01
+ 15 Fe K / 1   132688.      132687.       159.        0.12   -25.6        -0.02
+ 16 Co K / 1   1266.04      1266.16       40.8        3.22   -1.07        -0.08
+ 17 Ni K / 1   1129.05      1129.05       15.1        1.34   0.230         0.02
+ 18 Cu K / 1   610.209      610.207       9.65        1.58   0.124         0.02
+ 19 Zn K / 1   145.183      145.182       5.38        3.71   0.112         0.08
+ 20 Ga K / 1   5.47749      5.47791       2.67       48.76   0.221         4.03
+ 21 As K / 1   41.5059      41.5064       3.52        8.49   2.937E-04     0.00
+ 22 Br K / 1   7.01518      7.01493       1.99       28.33   6.072E-02     0.87
+ 23 Rb K / 1   2.20173      2.20172       1.50       67.96   6.718E-02     3.05
+ 24 Sr K / 1   16.4054      16.4053       1.49        9.10  -2.940E-02    -0.18
+ 25 Y  K / 1  0.650397     0.650397      0.473       72.73   8.682E-02    13.35
+ 26 Zr K / 1   1.75372      1.75375      0.705       40.18  -5.683E-02    -3.24
+ 27 Zn LB/ *  0.000000     0.000000      0.000        0.00   0.000         0.00
+ 28 Ga LB/ *  0.000000     0.000000      0.000        0.00   0.000         0.00
+ 29 As LB/ *   104.304      104.149       106.      101.62   0.302         0.29
+ 30 Br LA/ *   318.197      318.124       116.       36.37  -0.237        -0.07
+ 31 Rb LA/ *   1495.05      1495.18       143.        9.56  -0.934        -0.06
+ 32 Sr LA/ *   513.187      513.574       112.       21.76    1.08         0.21
+ 33 Y  LA/ *  0.000000     0.000000      0.000        0.00   0.000         0.00
+ 34 Zr LA/ *  0.000000     0.000000      0.000        0.00   0.000         0.00
+ 35 PU S1/ 0   425.926      425.940       7.97        1.87  -0.364        -0.09
+-------------------------------------------------------------------------------
+      Elmt  Lay   DF     Peak     2-FWHM       % Fit  % Stat. +1% Of     LOD
+  #   Z Sym.     n/m     Area       Area       Error   Error Overlap    Area
+  -   - ----     ---     ----       ----       -----   ----- -------    ----
+  1: 14 SiK / 1  7/ 4  0.0000     0.0000        0.00    0.00    0.00  1373.8 
+  2: 15 P K / 1  7/ 4   4796.      7633.       22.99    4.65   11.83  1685.3 
+  3: 16 S K / 1  7/ 4   8923.     1.4179E+04    7.87    2.31    3.26   672.9 
+  4: 17 ClK / 1  9/ 4  1.1676E+05 1.8366E+05    1.17    0.28    0.29   449.9 
+  5: 19 K K / 1  9/ 4  1.1751E+05 1.7782E+05    0.86    0.33    0.46   630.3 
+  6: 20 CaK / 1  9/ 4  3.2283E+06 4.8294E+06    0.31    0.05    0.05  1106.4 
+  7: 22 TiK / 1  9/ 4  1.4553E+04 2.1655E+04    1.67    1.07    1.36   354.3 
+  8: 23 V K / 1  9/ 4   6500.      9672.        2.87    2.15    2.75   423.9 
+  9: 25 MnK / 1  9/ 5  7.1424E+05 1.0640E+06    0.32    0.10    0.11   469.8 
+ 10: 26 FeK / 1  9/ 5  1.3162E+06 1.9854E+06    0.30    0.07    0.15  3841.8 
+ 11: 27 CoK / 1  9/ 5  1.2728E+04 1.9200E+04    3.23    2.66   14.21  4199.3 
+ 12: 28 NiK / 1  9/ 5  1.1506E+04 1.7316E+04    1.37    1.03    1.45   283.4 
+ 13: 29 CuK / 1  9/ 5   6305.      9404.        1.61    1.20    1.36    82.3 
+ 14: 30 ZnK / 1 11/ 5   1521.      2269.        3.72    2.74    2.97    59.8 
+ 15: 31 GaK / 1 11/ 5   58.20      86.70       48.76   36.24   41.02    44.8 
+ 16: 33 AsK / 1 11/ 5   453.7      675.9        8.50    6.61    7.93    73.1 
+ 17: 35 BrK / 1 11/ 6   78.91      117.7       28.33   22.95   25.42    40.6 
+ 18: 37 RbK / 1 11/ 6   25.49      37.90       67.96   53.06   58.36    41.2 
+ 19: 38 SrK / 1 11/ 6   192.7      286.7        9.11    7.35    7.35    12.0 
+ 20: 39 Y K / 1 11/ 6   7.750      11.50       72.73   72.55   72.99    11.4 
+ 21: 40 ZrK / 1 13/ 6   21.20      31.40       40.18   36.52   37.75    20.2 
+ 22: 30 ZnLB/ *  7/ 4  0.0000     0.0000        0.00    0.00    0.00   382.6 
+ 23: 31 GaLB/ *  7/ 4  0.0000     0.0000        0.00    0.00    0.00   367.5 
+ 24: 33 AsLB/ *  7/ 4   887.8      1946.      101.62   11.37   12.81   349.5 
+ 25: 35 BrLA/ *  7/ 4   2724.      5923.       36.37    3.75    5.06   377.8 
+ 26: 37 RbLA/ *  7/ 4  1.2893E+04 2.5053E+04    9.56    1.09    1.76   460.5 
+ 27: 38 SrLA/ *  7/ 4   4443.      8206.       21.76    4.10   11.34  1374.7 
+ 28: 39 Y LA/ *  7/ 4  0.0000     0.0000        0.00    0.00    0.00  2206.7 
+ 29: 40 ZrLA/ *  7/ 4  0.0000     0.0000        0.00    0.00    0.00  1597.0 
+-------------------------------------------------------------------------------
+ Z=99 is a pile-up "element".  Up to 50 such peaks were allowed in the fit and
+ the program used 50 of them.  Below are listed the pile-up energies and
+ intensities.   (Total Cts: 10426292  Live time:    1.0s   Av Rate:****** cps)
+  (Tau:  500. ns,   Pulse deadtime: 25. us, % Live time: 100.0  PUcor: 1.0038 )
+ Energy:   7.381 10.091  9.585  7.703 12.295 12.801 10.412 10.749  7.003  9.907
+           6.312 10.181 11.790 13.459  9.710  9.022 12.891  8.025 12.955  7.303
+          11.071  9.209  8.517  5.641 12.385  7.630  6.634  8.196 10.503 10.616
+           6.506  5.986  8.351 11.163  9.992  5.385  8.642 10.343  9.823  7.845
+           5.443 11.732  8.710 10.911 13.782  5.702  5.935  9.485  9.113  7.955
+ Rel Int: 1.0000 0.8173 0.4423 0.3307 0.1809 0.1668 0.1404 0.1083 0.0726 0.0724
+          0.0721 0.0661 0.0491 0.0443 0.0336 0.0300 0.0268 0.0267 0.0250 0.0234
+          0.0202 0.0194 0.0166 0.0153 0.0145 0.0140 0.0130 0.0111 0.0107 0.0098
+          0.0092 0.0084 0.0081 0.0071 0.0055 0.0053 0.0052 0.0048 0.0047 0.0044
+          0.0040 0.0039 0.0038 0.0033 0.0029 0.0025 0.0023 0.0023 0.0021 0.0019
+-------------------------------------------------------------------------------
+ File:Análise amostras   Sec:    0.  uC:  1.000  nA:  0.000  PUcor:1.0038
+ The last column is a decision on the presence of that element in the spectrum.
+   Y: present at level of quantization,   N: not present at limit of detection
+   ?: may be present near LOD levels (user must decide)  H or uC Corr[T]: 0.184
+ Det Res(eV): 184.7                                Chi**2:    4.197 (   18.161)
+       Layer         H   Yield Det. Filter
+ Element     Area  value  /uC/ Eff. Trans.     Conc.  %Stat.  %Fit      LOD
+  Z Sym  #  counts ( -4)   ppm (-3)  (-5)       ppm    Error  Error     ppm 
+  - ---  -  ------ ----- ----- ---- ------     -----   -----  -----    -----  -
+ 14 SiK  1       0   450  3107  589   1280         0       0      0   9359.9  N
+ 15 P K  1  4796.4   450  3399  695   5621    4388.5   11.83  22.99   1218.0  ?
+ 16 S K  1  8923.4   450  3832  782  14555    2485.2    3.26   7.87    149.6  Y
+ 17 ClK  1  116764   450  3863  843  26593   16382.8    0.29   1.17     51.1  Y
+ 19 K K  1  117508   450  3778  915  51624    7994.8    0.46   0.86     35.2  Y
+ 20 CaK  1 3228329   450  3284  937  61981  205673.6    0.05   0.31     57.9  Y
+ 22 TiK  1 14553.3   450  1559  963  77011    1528.4    1.36   1.67     30.6  Y
+ 23 V K  1  6500.0   450  1395  972  82137     709.6    2.75   2.87     38.0  Y
+ 25 MnK  1  714240   450 961.1  982  89093  103162.5    0.11   0.32     55.9  Y
+ 26 FeK  1 1316152   450 800.7  968  91410  225589.8    0.15   0.30    538.1  Y
+ 27 CoK  1 12727.9   450 564.4  971  93186    3027.7   14.21   3.23    816.9  ?
+ 28 NiK  1 11506.4   450 375.9  973  94561    4044.1    1.45   1.37     81.8  Y
+ 29 CuK  1  6305.2   450 299.9  990  95631    2699.6    1.36   1.61     29.1  Y
+ 30 ZnK  1  1521.2   450 244.8  985  96466     794.5    2.97   3.72     25.8  Y
+ 31 GaK  1    58.2   450 190.8  974  97123      39.2   41.02  48.76     25.0  ?
+ 33 AsK  1   453.7   450 119.1  925  98058     510.3    7.93   8.50     68.7  Y
+ 35 BrK  1    78.9   450 72.59  837  98657     160.0   25.42  28.33     69.4  ?
+ 37 RbK  1    25.5   450 43.63  723  99051      99.1   58.36  67.96    137.0  ?
+ 38 SrK  1   192.7   450 34.01  662  99195    1048.1    7.35   9.11     56.0  Y
+ 39 Y K  1     7.8   450 26.79  602  99314      58.8   72.99  72.73     75.1  ?
+ 40 ZrK  1    21.2   450 20.86  543  99413     228.5   37.75  40.18    191.3  ?
+ 30 ZnLB *       0   450 451.8  117      0         0       0      0 999999.0  N
+ 31 GaLB *       0   450 478.2  184      0         0       0      0 999999.0  N
+ 33 AsLB *   887.8   450 603.3  351      7 7195918.0   12.81 101.62 999999.0  Y
+ 35 BrLA *  2723.9   450  1345  479    103  501255.3    5.06  36.37  41604.2  Y
+ 37 RbLA * 12893.0   450  1456  565    906  210144.3    1.76   9.56   5155.5  Y
+ 38 SrLA *  4442.7   450  1555  623   1994   27956.7   11.34  21.76   6280.4  Y
+ 39 Y LA *       0   450  1579  662   3787         0       0      0   8906.1  N
+ 40 ZrLA *       0   450  1599  706   6394         0       0      0   3531.4  N
+(A "*" in the Layer# column indicates that elmt NOT used in matrix iteration)
+ In the matrix iteration section it was found that a correction needed to be
+ applied to the H or uC value in order for the concentrations to sum to unity.
+ The concentrations listed in the table above include this correction value.
+ With the user supplied H & uC values alone the conc would be the above values
+ multiplied by  0.184     (See the documentation for further discussion.)
+
+-------------------------------------------------------------------------------

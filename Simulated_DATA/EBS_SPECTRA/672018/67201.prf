@@ -1,0 +1,21 @@
+ 2
+ 0.783214E+04  0.175217E+02  0.446290E-01  0.582528E+02  0.239000E+02  0.000000E+00  0.125309E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.750555E-01  0.155696E-02  0.564905E-01  0.224406E-01
+ 0.400006E+06  0.192123E+02  0.000000E+00  0.566639E+02  0.224013E+02  0.264290E+00  0.000000E+00  0.116922E+01  0.148901E+00  0.140166E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00
+ thickness(1e15at/cm2), comp_molecules...
+molecules 13
+  2.014 Ca                                                                                                                                  
+  8.483 Fe                                                                                                                                  
+  4.302 O                                                                                                                                   
+ 11.364 C                                                                                                                                   
+  4.977 Si                                                                                                                                  
+  3.220 Cl                                                                                                                                  
+  2.541 Na                                                                                                                                  
+  4.302 Mg                                                                                                                                  
+  6.023 Al                                                                                                                                  
+  3.885 S                                                                                                                                   
+  5.682 Ti                                                                                                                                  
+  1.329 K                                                                                                                                   
+  9.125 Ni                                                                                                                                  
+NDF v9.6h 11Sep15 rev 12Mar16 run 09/05/2026 18:35:46 Filename: 67201.prf    Nuno Barradas (Laboratório de Feixes de Iões), Campus Tecnológico e Nuclear, Instituto Superior Técnico
+batch 672015.spc                                                                    
+str 672015s.str                                                                   

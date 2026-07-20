@@ -1,0 +1,32 @@
+_header version  4 
+_data size:  1024 
+_date of spectra:  18-02-2010 12:26:00
+_target: Nodulo polimetalico mapa hapa Si  blacksmoker Lucky strike ra
+_beam energy/MeV:  0.7 
+_beam A, Z, Q/e :  1         1             1 
+_elapsed time/s :  411  [00:06:51]
+_No. charge pulses:  42190895 
+_total run time/s :  310.7071 
+_total live time/s:  310.70662 
+_ch.0 live time/s :  310.70723 
+_charge conversion factor and charge per pulse/C:  1     1E-14 
+_beam charge /nC : 421.9
+_beam current/pA : 1026.5
+_ADC  1 
+_compression (0 = no; 1 = yes):  1 
+_maximum counts  =  4341 
+_total of counts =  1439155 
+_Average rate/Hz =  3501.59
+_system calibration: E/keV =  1.39618 *ch +  41.62292 
+_radiation type: RBS 
+_det area/mm.sq   = 200 
+_det_tgt dist/mm  = 50 
+_det sol_angl/msr = 80.0
+_det_beam angle/º = 39 
+_target in-plane tilt/º = 0 
+_target out-of-plane tilt/º = 0 
+_file length, spec offset and data bytes =               5846          3798          2048 
+_target: Nodulo polimetalico mapa hapa Si  blacksmoker Lucky strike ra
+Info retrieved on compression indicates no compression!
+1024 channels require 4096 bytes. Data segment has only 2048 bytes.
+Compression assumed as used.

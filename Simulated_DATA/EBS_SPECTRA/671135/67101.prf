@@ -1,0 +1,20 @@
+ 1
+ 0.100000E+08  0.100102E+02  0.116268E+02  0.921880E-02  0.831696E-02  0.140286E-02  0.986081E+01  0.104948E+02  0.579768E+02  0.300613E-02  0.370756E-02  0.901839E-03  0.190388E-02  0.210429E-02
+ thickness(1e15at/cm2), comp_molecules...
+molecules 13
+  3.885 S                                                                                                                                   
+  3.220 Cl                                                                                                                                  
+  1.329 K                                                                                                                                   
+  2.014 Ca                                                                                                                                  
+  5.682 Ti                                                                                                                                  
+  8.483 Fe                                                                                                                                  
+  8.483 Cu                                                                                                                                  
+  4.302 O                                                                                                                                   
+  1.787 Sr                                                                                                                                  
+  4.597 As                                                                                                                                  
+  2.562 Br                                                                                                                                  
+  1.077 Rb                                                                                                                                  
+  3.041 Y                                                                                                                                   
+NDF v9.6h 11Sep15 rev 12Mar16 run 01/05/2026 17:58:20 Filename: 67101.prf    Nuno Barradas (Laboratório de Feixes de Iões), Campus Tecnológico e Nuclear, Instituto Superior Técnico
+batch 671135.spc                                                                    
+str 671135s.str                                                                   

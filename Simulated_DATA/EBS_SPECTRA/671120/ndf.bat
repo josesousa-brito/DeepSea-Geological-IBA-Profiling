@@ -1,0 +1,2 @@
+cd C:\Users\joseb\Desktop\G3_DATA_LUCKYSTRIKE_POLIMETALICNODODULS\Simulated_DATA\EBS_SPECTRA\671120
+c:\ndf\ndf 671120 0  0  1  1  0  1 x 1 0 

@@ -1,0 +1,19 @@
+NDF v9.6h 11Sep15 rev 12Mar16 run 09/05/2026 18:14:18 Filename: 672f0102.dat Nuno Barradas (Laboratório de Feixes de Iões), Campus Tecnológico e Nuclear, Instituto Superior Técnico
+batch 672015.spc                                                                    
+str 672015s.str                                                                   
+file 672016_stats.txt                                                              
+geo pixe_h.geo                                                                    
+element  data        error          fit
+Ca K:  0.121602E+07  0.121602E+06  0.126252E+07
+Fe K:  0.164430E+04  0.164430E+03  0.161150E+04
+Si K:  0.416000E+06  0.416000E+05  0.376388E+06
+Cl K:  0.148008E+05  0.148008E+04  0.144931E+05
+Na K:  0.286719E+05  0.286719E+04  0.286236E+05
+Mg K:  0.427661E+05  0.427661E+04  0.472335E+05
+Al K:  0.213043E+06  0.213043E+05  0.223832E+06
+S  K:  0.610680E+04  0.610680E+03  0.599188E+04
+Ti K:  0.227900E+03  0.371252E+02  0.241229E+03
+K  K:  0.147635E+05  0.147635E+04  0.144174E+05
+P  K:  0.242120E+04  0.678771E+03  0.230511E+04
+Co K:  0.392000E+02  0.244151E+02  0.391746E+02
+Mn K:  0.211000E+02  0.148077E+02  0.225422E+02

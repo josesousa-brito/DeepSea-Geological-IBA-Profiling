@@ -1,0 +1,19 @@
+NDF v9.6h 11Sep15 rev 12Mar16 run 09/05/2026 15:26:19 Filename: 672p01.dat   Nuno Barradas (Laboratório de Feixes de Iões), Campus Tecnológico e Nuclear, Instituto Superior Técnico
+batch 672015.spc                                                                    
+str 672015s.str                                                                   
+molecules 11
+  2.014 Ca                                                                                                                                  
+  8.483 Fe                                                                                                                                  
+  4.302 O                                                                                                                                   
+ 11.364 C                                                                                                                                   
+  4.977 Si                                                                                                                                  
+  3.220 Cl                                                                                                                                  
+  2.541 Na                                                                                                                                  
+  4.302 Mg                                                                                                                                  
+  6.023 Al                                                                                                                                  
+  3.885 S                                                                                                                                   
+  5.682 Ti                                                                                                                                  
+total_thick(1e15at/cm2) ...molecules... total_thick(nm) r(1e22at/cm3) total_thick(ug/cm2)
+ 0.000000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.5495E+01  0.0000E+00
+ 0.100000E-05  0.1720E+02  0.1029E-01  0.5963E+02  0.2250E+02  0.2221E+00  0.3135E-01  0.2701E+00  0.6500E-01  0.4212E-01  0.2356E-01  0.1154E-02  0.0000E+00  0.5495E+01  0.0000E+00
+ 0.100000E+10  0.1720E+02  0.1029E-01  0.5963E+02  0.2250E+02  0.2221E+00  0.3135E-01  0.2701E+00  0.6500E-01  0.4212E-01  0.2356E-01  0.1154E-02  0.1820E+09  0.5495E+01  0.3207E+08

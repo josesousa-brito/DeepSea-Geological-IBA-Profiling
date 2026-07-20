@@ -1,0 +1,56 @@
+Comment:	T	hese cr	o	ss section	s	have been digitized from the publication
+cited bel	o	w. No e	r	ror of eit	h	er the energy and or the sigma is given.
+Some erro	r	s may b	e	among the		"data, we are recently checking them."
+The Los A	l	amos Io	n	Beam Hand	b	ook also will contain these data as soon
+as it is	r	eady. I	f	you use t	h	is data please refer to the paper below.
+Special c	o	mment:				
+WARNING !		THIS IS		MAINLY FOR		TEST NO GUARANTY IS PROVIDED FOR EVEN
+AGREEMENT		WITH TH	E	ORIGINAL	P	UBLICATION.
+File crea	t	ed by R	3	3 Manager	v	ersion 0.21
+						
+Version:	R	33				
+Source: E	.	A.Wolic	k	"i et al.,"	P	hys.Rev.116 (1959) 1585
+Name: Gyo	r	gy Vizk	e	lethy		
+Address1:		Departm	e	nt of Phys	i	cs
+Address2:		Idaho S	t	ate Univer	s	ity
+Address3:		Campus	B	ox 8106		
+Address4:		Pocatel	l	"o, ID 8320"	9	-8106
+Address5:		(208) 2	3	Jun-26		
+Address6:		vizkel@	p	hysics.isu	.	edu
+Serial Nu	m	ber:				
+SubFile:	9	betp0_2	.	r33		
+X4Number:						
+Reaction:		9Be(3He	","	p0)11B		
+Distribut	i	on: Ene	r	gy		
+Compositi	o	n:				
+Masses:		"3.000,"		"9.000,"		"1.000,   11.000"
+"Zeds: 2,"	4	", 1, 5"				
+Qvalue:	1	321.9	","	0	","	"0.00,      0.00,      0.00"
+Theta:		150				
+Sigfactor	s	": 1.00,"		0		
+Enfactors	:	"1.00,"	0	".00, 0.00,"		0
+Units: mb						
+Data:					2	
+0	","	0	","	0	0	0
+10	","	0	","	0	0	0
+680.75	","	0	","	1.13E-04	2.26E-04	0
+778	","	0	","	0.00876	0.01752	0
+875.25	","	0	","	0.03254	0.06508	0
+972.5	","	0	","	0.05965	0.11930	0
+1069.75	","	0	","	0.10515	0.21030	0
+1167	","	0	","	0.12834	0.25668	0
+1264.25	","	0	","	0.18385	0.36770	0
+1361.5	","	0	","	0.25592	0.51184	0
+1458.75	","	0	","	0.3969	0.79380	0
+1556	","	0	","	0.43538	0.87076	0
+1653.25	","	0	","	0.5498	1.09960	0
+1750.5	","	0	","	0.70376	1.40752	0
+1847.75	","	0	","	0.85774	1.71548	0
+1945	","	0	","	0.92827	1.85654	0
+2042.25	","	0	","	0.87431	1.74862	0
+2139.5	","	0	","	0.92651	1.85302	0
+2236.75	","	0	","	1.0217	2.04340	0
+2334	","	0	","	0.90042	1.80084	0
+2431.25	","	0	","	1.07938	2.15876	0
+2500	","	0	","	0.9187	1.83740	0
+EndData:						
