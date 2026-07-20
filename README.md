@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1307071064.svg)](https://doi.org/10.5281/zenodo.21464193)
 # Repository Structure and Data Directory Hierarchy
 
 This repository is organized into four primary directories designed to facilitate the processing, simulation, and visualization of Ion Beam Analysis (IBA) data (PIXE/EBS) for deep-sea geological specimens.
